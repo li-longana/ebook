@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录界面</title>
+		<style type="text/css">
+			.main{
+				margin: 0 auto;
+				padding: 10px;
+				width: 250px;
+				height: 200px;
+				background: cornflowerblue;
+			}
+			.leftbar{
+				width: 30%;
+				padding-bottom: 15px;
+				display: inline-block;
+				text-align: right;
+			}
+			.bottom{
+				padding-bottom: 15px;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<form action="登录验证.php" method="post">
+			
+			<div id="main" class="main">
+				<h3>
+					请输入用户名
+				</h3>
+				<div>
+					<label><div class="leftbar">用户名：</div><input type="text" name="userName" /></label>
+					<label><div class="leftbar">密码：</div><input type="password" name="userPassword" /></label>
+				</div>
+				<div class="bottom">
+					<div class="leftbar"></div>
+					<table width="200">记住密码：
+					  <tr>
+					    <td><label>
+					      <input type="radio" name="记住密码" value="0" id="记住密码_0">
+					      不记住</label></td>
+				      </tr>
+					  <tr>
+					    <td><label>
+					      <input type="radio" name="记住密码" value="1" id="记住密码_1">
+					      记住我一周</label></td>
+				      </tr>
+				  </table>
+					
+				</div>
+				<div class="bottom">
+					<div class="leftbar"></div><input type="submit" name="submit" value="登录" />
+				</div>
+				
+			</div>
+			
+		</form>	
+	</body>
+</html>
+ 
+ 

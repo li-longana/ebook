@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.php.debug.core.launching.PHPExeLaunchConfigurationType">
+<stringAttribute key="ATTR_FILE" value="/www.book.book/index.php"/>
+<stringAttribute key="ATTR_FILE_FULL_PATH" value="D:\www.book.book\index.php"/>
+<stringAttribute key="ATTR_INI_LOCATION" value="E:\web\php7.4\php.ini"/>
+<stringAttribute key="ATTR_LOCATION" value="E:\web\php7.4\php.exe"/>
+<listAttribute key="org.eclipse.debug.ui.favoriteGroups">
+<listEntry value="org.eclipse.debug.ui.launchGroup.debug"/>
+<listEntry value="org.eclipse.debug.ui.launchGroup.profile"/>
+<listEntry value="org.eclipse.debug.ui.launchGroup.run"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.php.debug.core.PHP_CONTAINER" value="org.eclipse.php.debug.core.PHP_CONTAINER/org.eclipse.php.debug.core.noneDebugger/php7.4"/>
+<stringAttribute key="org.eclipse.php.debug.coreconfiguration_delegate_class" value="org.eclipse.php.internal.debug.core.debugger.NoneDebuggerConfiguration$ScriptLaunchDelegate"/>
+<stringAttribute key="org.eclipse.php.debug.corephp_debugger_id" value="org.eclipse.php.debug.core.noneDebugger"/>
+</launchConfiguration>
