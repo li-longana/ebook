@@ -1,5 +1,5 @@
 # ebook
-笔者两年前手打的一份php小说网站框架
+笔者手打的一份php小说网站框架用于课程设计 
 book.llang.top
 这里是效果可以看一下
 解压缩后public_function.php文件里更改数据库连接信息就行
